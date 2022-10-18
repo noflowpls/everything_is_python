@@ -1,6 +1,6 @@
 from distutils.log import debug
 import re
-from flask import Flask, render_template, url_for, redirect, render_template_string, request
+from flask import Flask, render_template, render_template_string, request
 
 app = Flask(__name__)
 
