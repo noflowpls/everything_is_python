@@ -2,9 +2,9 @@ import requests
 
 url = input("Target Url: ")
 
-username = input("What is the username you wish to attempt? ")
+username = input("What is the username you wish to attempt?: ")
 
-password_file = input("Please enter the name of the password file: ")
+password_file = input("Please enter the name of password file: ")
 
 file = open(password_file, "r")
 
